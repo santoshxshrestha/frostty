@@ -16,18 +16,11 @@
           clang
           gcc
           cmake
-          # ninja
-          # make
           gdb
-          # valgrind
           bear
           sdl3
         ];
         nativeBuildInputs = [ pkgs.pkg-config ];
-        env = {
-          CC = "gcc";
-          CXX = "g++";
-        };
       };
     };
 }
